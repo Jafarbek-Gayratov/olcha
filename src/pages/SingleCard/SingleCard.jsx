@@ -23,7 +23,6 @@ const SingleCard = () => {
             <h3 className="price">Narxi: {product.price} so'm</h3>
             <mark className="installment">{product.oyiga} so'm/oyiga</mark>
             <div className="wrapper-a">
-              <button className="order-btn">Buyurtma qilish</button>
               <button className="order-btn">
                 <a href="/">Qaytish</a>
               </button>
