@@ -1,0 +1,117 @@
+.singlecard {
+  padding: 50px 0;
+}
+
+.singlecard-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background: none;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.singlecard-image img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.singlecard-info {
+  max-width: 500px;
+}
+
+.singlecard-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.category {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.installment {
+  text-align: center;
+  display: block;
+  font-size: 24px;
+  color: #ff9800;
+  margin-top: 5px;
+}
+
+.old-price {
+  font-size: 16px;
+  color: #888;
+  text-decoration: line-through;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.order-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #27ae60;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.order-btn:hover {
+  background: #1e8449;
+}
+
+.order-btn a {
+  display: inline-block;
+  background: #27ae60;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.wrapper-a {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 992px) {
+  .singlecard-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .singlecard-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .singlecard-info h2 {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 18px;
+  }
+
+  .order-btn {
+    width: 100%;
+  }
+}

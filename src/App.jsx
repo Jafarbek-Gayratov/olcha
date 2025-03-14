@@ -7,6 +7,7 @@ import Taqqoslash from "./pages/taqqoslash/Taqqoslash";
 import Kirish from "./pages/kirish/Kirish";
 import Sevimlilar from "./pages/sevimlilar/Sevimlilar";
 import FooterMain from "./components/footer/FooterMain";
+import SingleCard from "./pages/SingleCard/SingleCard";
 
 function App() {
   const location = useLocation();
@@ -23,6 +24,7 @@ function App() {
         <Route path="/savat" element={<Savat />} />
         <Route path="/taqqoslash" element={<Taqqoslash />} />
         <Route path="/sevimlilar" element={<Sevimlilar />} />
+        <Route path="/product/:id" element={<SingleCard />} />
       </Routes>
       <FooterMain />
     </div>
