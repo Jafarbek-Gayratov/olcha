@@ -55,14 +55,8 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.footer-payment-methods img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
-
 /* ////////////////////////////////////////////////////////////// */
 
-/* Kichik ekranlar (planshet va kichikroq) */
 @media (max-width: 1024px) {
   .footer-bottom-wrapper {
     grid-template-columns: 1fr 1fr;
@@ -82,7 +76,6 @@
   }
 }
 
-/* O'rtacha ekranlar (katta telefonlar, kichik planshetlar) */
 @media (max-width: 768px) {
   .footer-bottom-wrapper {
     grid-template-columns: 1fr;
@@ -106,7 +99,6 @@
   }
 }
 
-/* Kichik telefonlar */
 @media (max-width: 480px) {
   .footer-bottom {
     padding: 20px 10px;

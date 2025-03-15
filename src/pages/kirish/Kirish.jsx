@@ -30,9 +30,7 @@ const Kirish = () => {
       <button className="login-send">Kodni olish</button>
       <p className="login-text">
         Avtotizatsiyadan o'tish orqali siz{" "}
-        <a href="#">
-          shaxsiy ma'lumotlarni qayta ishlash siyosatiga rozilik bildirasiz
-        </a>
+        
       </p>
 
       <Link className="login-asosiysahifa" to={"/"}>
