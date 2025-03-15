@@ -66,6 +66,10 @@
   gap: 10px;
 }
 
+.navbar-bottom-end li {
+  text-align: center;
+}
+
 @media only screen and (max-width: 1025px) {
   .navbar-bottom-logo {
     display: none;
