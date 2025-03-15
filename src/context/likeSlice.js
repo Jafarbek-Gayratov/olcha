@@ -9,6 +9,7 @@ export const likeSlice = createSlice({
     addToWishies(state, action) {
       state.value = [...state.value, action.payload];
       localStorage.setItem("wishes", JSON.stringify(state.value));
+      toast.success("Savatga qoshildi Hoshim😘💕");
     },
     removeFromWishies(state, action) {
       state.value = state.value.filter((el) => el.id !== action.payload.id);

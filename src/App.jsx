@@ -8,6 +8,7 @@ import Kirish from "./pages/kirish/Kirish";
 import Sevimlilar from "./pages/sevimlilar/Sevimlilar";
 import FooterMain from "./components/footer/FooterMain";
 import SingleCard from "./pages/SingleCard/SingleCard";
+import { ToastContainer, toast } from "react-toastify";
 
 function App() {
   const location = useLocation();
@@ -27,6 +28,7 @@ function App() {
         <Route path="/product/:id" element={<SingleCard />} />
       </Routes>
       <FooterMain />
+      <ToastContainer />
     </div>
   );
 }
